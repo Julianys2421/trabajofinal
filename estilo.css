@@ -1,0 +1,161 @@
+body{
+    border: 1px solid black;
+    border-radius: 5%;
+    margin: 55px 0px 0px 55px;
+    padding: 15px;
+    background-image: url(images/fondo.gif);
+    font-family: Arial, Helvetica, sans-serif;
+    color: saddlebrown;
+    font-size: 15px;
+    
+}
+
+header{
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: -1px;
+    font-size: 24px;
+}
+nav{
+    background-image: url(images/fondomenu.png)!important;
+    height: 85px;
+    width: 85%;
+    border: 1px solid black;
+    border-radius: 3%;
+    margin: 0px;
+    display: flex;
+    
+}
+nav ul li{
+    float: left;
+    list-style: none;
+    margin: 50px;
+    line-height: auto;
+    font-size: 20px;
+}
+nav ul li a:link{
+    background-color: saddlebrown;
+    color: #ffffff;
+    text-decoration: none;
+    
+}
+nav ul li a:visited{
+    background-color: saddlebrown;
+    color: #ffffff;
+}
+nav ul li a:hover{
+    background-color: saddlebrown;
+    color: #c9bc42df;
+}
+.clear{
+    clear: both;
+}
+ #banner {
+    background-image: url(images/fondo2.png);
+    width: 85%;
+   display: inline-table;
+    font-family: 'Times New Roman', Times, serif;
+}
+ #banner  h2{
+    
+    font-size: 25px;
+    color: #ffffff; 
+    float: center;
+    list-style: left;
+    width: 45%;
+    text-align: center;
+    margin-top:;
+}
+ #banner  p{ 
+    color: sienna ;
+    text-align: left;  
+    font-size: 20px;
+    height: 250px;
+    margin: 10px 500px 30px 120px;
+}
+#banner img{
+    border: none;   
+    width: 350px;
+    height: 200px;
+    float: right;
+
+}
+
+#contenido{
+    display: flex;
+    padding: 4px;
+    width: 85%;
+    height: 85%;
+    background-color: #ffffff;
+    margin: 0px;
+    border: none;
+    list-style: center;
+   
+}
+.columna{
+    list-style: none;
+    float: right;
+    margin: 8px;
+
+    
+}
+.cuadro{
+    float: left;
+    width: 20%;
+    height: 45%;
+    margin: 8px 0px 0px 15px;
+    border-radius: 7%;
+    background-color: rgb(205, 121, 42);
+    color: #ffffff;
+   
+}
+.cuadro h2 a{
+    color: #ffffff;
+    font-size: 20px;
+
+}
+.cuadro img{
+    border: 6px solid #ffffff;
+    margin: 10px 15px 0px 40px;
+}
+ #formulario{
+    float: right;
+    display: block;
+    width: 18%;
+    height: 18%;
+    border: 1px solid black;
+    margin: 350px 250px 0px 10px;
+    background-color: #ffffff;
+    
+}
+#formulario h3{
+    text-align: center;
+    color: black;
+}
+#formulario form{
+    margin: 10%;
+    font-size: 12px;
+
+  
+}
+footer{
+    margin: 5px;  
+    width: 85%;
+    border: none;
+    list-style: none;
+    display: flex;
+    background-image: url(images/fondomenu.png)!important;
+    color: #fff;
+
+}
+footer section h3{
+    font-size: 25px;
+    text-align: left;
+    width: 80%;
+    float: left;
+}
+footer section p{
+    text-align: left;
+    width: 80%;
+    float: left;
+
+}
